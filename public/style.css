@@ -1,0 +1,60 @@
+.centerShit{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: black 10px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200px;
+}
+
+.Article{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    margin: 0px;
+    font-size: 0.99em;
+    padding: 0px;
+}
+
+p{
+    font-size: 0.90em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.readMore{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+.TodoContainer{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 70%;
+    box-shadow: 
+        0 1px 3px rgba(0, 0, 0, 0, 15);
+    border-bottom: 1px solid whitesmoke;
+    margin: 10px 10px;
+    font-size: 10px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+input[type=checkbox]{
+    margin-right: 20px;
+    
+}
+
+.root{
+    background-color: aqua;
+}
